@@ -1,0 +1,39 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+##########
+# EXPORTS
+################
+export EDITOR='nvim'
+export STARSHIP_CONFIG=~/.config/starship/starship.toml
+
+##########
+# ALIASES
+################
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+alias vi='nvim'
+alias cma='chezmoi -v apply'
+alias cme='chezmoi edit'
+alias cmadd='chezmoi add'
+
+###########
+# PROMPT
+################
+PS1='[\u@\h \W]\$ '
+
+###########
+# FASTFETCH HEAD
+################
+echo 
+fastfetch
+
+###########
+# STARSHIP
+################
+eval "$(starship init bash)"
+
