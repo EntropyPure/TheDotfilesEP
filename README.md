@@ -10,10 +10,17 @@ These are my personal notes to help myself should I ever bork up my Arch so hard
 
 ### Required packages
 
-You can use your preferred AUR helper.
+#### AUR Helper
+
+Would love to use paru because RUST, but setup failed last time (Please try again, future me!).
+
+So we go for the next best thing: yay
 
 ```
-yay -S 
+sudo pacman -S --needed git base-devel
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
 ```
 
 ### Chezmoi Setup
