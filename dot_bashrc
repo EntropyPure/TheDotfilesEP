@@ -19,7 +19,6 @@ alias grep='grep --color=auto'
 alias vi='nvim'
 alias cma='chezmoi -v apply'
 alias cme='chezmoi edit'
-alias cmadd='chezmoi add'
 
 ###########
 # PROMPT
