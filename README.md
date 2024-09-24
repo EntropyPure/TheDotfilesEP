@@ -46,11 +46,19 @@ cd yay
 makepkg -si
 ```
 
+#### Install these first
+
+
+```
+sudo pacman -S hyprland kitty nvim dunst polkit-kde-agent xdg-desktop-portal-hyprland waybar wpaperd swaylock swayidle hyprshot wofi 
+```
+
 ### Chezmoi Setup
 
-Install using pacman or yay:
+Install using pacman:
 
 ```
-yay -S chezmoi
+pacman -S chezmoi
 ```
+
 
