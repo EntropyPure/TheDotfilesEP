@@ -17,6 +17,7 @@ export STARSHIP_CONFIG=~/.config/starship/starship.toml
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias vi='nvim'
+alias vim='nvim'
 alias cma='chezmoi -v apply'
 alias cme='chezmoi edit'
 
