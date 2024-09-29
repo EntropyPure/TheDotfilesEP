@@ -1,8 +1,8 @@
-# EntropyPure's Dotfiles-EP
+# EntropyPure's The Dotfiles-EP
 
 My personal Dotfiles-Repo for my Arch Hyprland environment.
 
-Includes Hyprland dots as well as my application dots.
+Includes dotFiles for Hyprland as well as my applications.
 
 ## Setup
 
@@ -50,15 +50,21 @@ makepkg -si
 
 
 ```
-sudo pacman -S hyprland kitty nvim dunst polkit-kde-agent xdg-desktop-portal-hyprland waybar wpaperd swaylock swayidle hyprshot wofi 
+sudo pacman -S hyprland kitty chezmoi nvim dunst polkit-kde-agent xdg-desktop-portal-hyprland waybar wpaperd swaylock swayidle hyprshot wofi firefox
 ```
 
 ### Chezmoi Setup
 
-Install using pacman:
+First things first: install SSH-Key for GitHub access.
+
+Install using pacman, if not already installed:
 
 ```
 pacman -S chezmoi
 ```
 
+#### Apply dotFiles from git repo
 
+```
+chezmoi init --apply https://github.com/EntropyPure/Thedotfiles.git
+```
