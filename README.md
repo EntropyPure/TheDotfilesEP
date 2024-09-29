@@ -66,5 +66,7 @@ pacman -S chezmoi
 #### Apply dotFiles from git repo
 
 ```
-chezmoi init --apply https://github.com/EntropyPure/Thedotfiles.git
+chezmoi init --apply https://github.com/EntropyPure/TheDotfilesEP.git
 ```
+
+If all went as it should, the setup is done and Hyprland including apps up and running.
