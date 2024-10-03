@@ -10,7 +10,7 @@
     "modules-left": ["hyprland/workspaces", "custom/playerctl", "custom/playerlabel"],
     "modules-center": ["cpu", "memory", "custom/packages"],
     //"modules-right": ["tray", "custom/randwall", "pulseaudio", "network", "battery", "clock"],
-    "modules-right": ["pulseaudio", "network", "battery", "clock", "custom/power"],
+    "modules-right": ["tray", "pulseaudio", "network", "battery", "clock", "custom/power"],
     // Modules configuration
 	"clock": {
 		"format": "  {:%H:%M}",
