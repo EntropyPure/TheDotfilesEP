@@ -50,7 +50,7 @@ makepkg -si
 
 
 ```
-sudo pacman -S hyprland kitty chezmoi nvim dunst polkit-kde-agent xdg-desktop-portal-hyprland waybar wpaperd swaylock swayidle hyprshot wofi firefox
+sudo pacman -S hyprland kitty chezmoi nvim yazi swaync polkit-kde-agent xdg-desktop-portal-hyprland waybar wpaperd hyprlock hypridle hyprshot wofi firefox
 ```
 
 ### Chezmoi Setup
