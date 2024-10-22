@@ -20,12 +20,13 @@
         "tray",
         //"memory",
         //"cpu",
+        //"backlight",
+        "pulseaudio",
+        //"pulseaudio#microphone",
         "network",
         "battery",
-        "backlight",
-        "pulseaudio",
-        "pulseaudio#microphone",
-        "clock"
+        "clock",
+        "custom/power"
     ],
 
     // Stock Module Configurations
@@ -159,11 +160,15 @@
 
     // Custom Module Configuration
     "custom/packages": {
-	  //"exec": "~/.local/bin/packagecount",
-	  "exec": "checkupdates | wc -l",
-    "format": "󰁡 {}",
-    "tooltip": "false",
-	  "interval": 45
-  }
-}
+	      "exec": "checkupdates | wc -l",
+        "format": "󰁡 {}",
+        "tooltip": "false",
+	      "interval": 45
+    },
 
+    "custom/power": {
+	      "format": "󰣇",
+	      "tooltip": false,
+	      "on-click": "wlogout --protocol layer-shell"
+    }
+}
