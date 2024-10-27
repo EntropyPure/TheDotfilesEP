@@ -1,6 +1,6 @@
 # EntropyPure's The Dotfiles-EP
 
-My personal Dotfiles-Repo for my Arch Hyprland environment.
+Personal Dotfiles-Repo for my Arch Hyprland environment.
 
 Includes dotFiles for Hyprland as well as my applications.
 
@@ -48,16 +48,18 @@ makepkg -si
 
 #### Install these first
 
+Install these packages first, after applying the config with chezmoi everything should be more or less set.
 
 ```
-sudo pacman -S hyprland kitty chezmoi nvim yazi swaync polkit-kde-agent xdg-desktop-portal-hyprland waybar wpaperd hyprlock hypridle hyprshot wofi firefox
+sudo pacman -S hyprland hyprlock hypridle hyprshot fastfetch kitty chezmoi nvim yazi wlogout sddm swaync starship polkit-kde-agent xdg-desktop-portal-hyprland waybar wpaperd wofi firefox
 ```
+
 
 ### Chezmoi Setup
 
 First things first: install SSH-Key for GitHub access.
 
-Install using pacman, if not already installed:
+Install the package using pacman, if not already installed:
 
 ```
 pacman -S chezmoi
